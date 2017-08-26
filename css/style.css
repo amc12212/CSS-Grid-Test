@@ -62,3 +62,13 @@
   align-content: left;
 }
 
+@media (max-width: 399px) {
+  .b, .d {
+    grid-column: 1 / -1;
+  }
+
+  .a-1 {
+    grid-column: 1 / -1;
+  }
+}
+
